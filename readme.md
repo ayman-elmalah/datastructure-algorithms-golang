@@ -111,7 +111,7 @@ Also you can run the program from the console ``go run graph/main.go``
 <hr>
 
 ### Factorial
-###### Implement a solution to find a factorial of number in golang using recusrive and iterative
+###### Implement a solution to find a factorial of number in golang using recursive and iterative
 
 You can have a look to code by viewing the file ``${root}/factorial/main.go``
 

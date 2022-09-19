@@ -18,6 +18,10 @@ Implement some data structure and algorithms topics in golang
 - [Queue](#queue)
 - [Binary tree](#binary-tree)
 - [Graph](#graph)
+- [Factorial](#factorial)
+- [Fibonacci](#fibonacci)
+
+<hr>
 
 ### Reverse a string
 ###### Question: Implement a solution to reverse given string characters, As example Given ``Hello world`` and the method should return ``dlrow olleH``
@@ -30,6 +34,8 @@ You can have a look to code by viewing the file ``${root}/reverse_string/main.go
 
 Also you can run the program from the console ``go run reverse_string/main.go``
 
+<hr>
+
 ### Which repeated first
 ###### Question: Implement a solution to detect which character repeated first, As example Given ``[1, 2, 3, 3, 5]`` so method should return ``3`` as it's the first character repeated in the array
 
@@ -41,6 +47,8 @@ You can have a look to code by viewing the file ``${root}/which_repeated_first/m
 
 Also you can run the program from the console ``go run which_repeated_first/main.go``
 
+<hr>
+
 ### Merge sorted arrays
 ###### Question: Implement a solution to merge 2 sorted arrays in 1 array, As example Given ``[0, 2, 4] and [1, 5, 6]`` so method should return ``[0, 1, 2, 4, 5, 6]`` as the sorted array
 
@@ -50,6 +58,8 @@ You can have a look to code by viewing the file ``${root}/merge_sorted_arrays/ma
 
 Also you can run the program from the console ``go run merge_sorted_arrays/main.go``
 
+<hr>
+
 ### Linked list
 ##### List that is linked, contains a set of nodes, each node have value and pointer
 ###### Implement linked list methods in golang methods: [Append, Prepend, Insert, Remove and Display]
@@ -57,6 +67,8 @@ Also you can run the program from the console ``go run merge_sorted_arrays/main.
 You can have a look to code by viewing the file ``${root}/linked_list/main.go``
 
 Also you can run the program from the console ``go run linked_list/main.go``
+
+<hr>
 
 ### Stack
 ##### It's a linear data structure in which elements can be inserted or deleted from one side of list that is called TOP, It follows "LIFO" last in first out
@@ -66,6 +78,8 @@ You can have a look to code by viewing the file ``${root}/stack/main.go``
 
 Also you can run the program from the console ``go run stack/main.go``
 
+<hr>
+
 ### Queue
 ##### It's a linear data structure in which elements can be inserted from one side that's called REAR and deleted from the other side that's called FRONT, It follows "FIFO" first in first out
 ###### Implement queue methods in golang methods: [Enqueue, Dequeue, Length, Peek and Display]
@@ -73,6 +87,8 @@ Also you can run the program from the console ``go run stack/main.go``
 You can have a look to code by viewing the file ``${root}/queue/main.go``
 
 Also you can run the program from the console ``go run queue/main.go``
+
+<hr>
 
 ### Binary tree
 #####  It's a very basic tree, each node can only have either 0,1 or 2 nodes and each child can have just 1 parent
@@ -82,6 +98,8 @@ You can have a look to code by viewing the file ``${root}/binary_tree/main.go``
 
 Also you can run the program from the console ``go run binary_tree/main.go``
 
+<hr>
+
 ### Graph
 #####  A graph data structure is a collection of nodes that have data and connected to other nodes, Nodes connected together with edges
 ###### Implement a graph methods in golang methods: [AddNode and AddEdge]
@@ -89,3 +107,21 @@ Also you can run the program from the console ``go run binary_tree/main.go``
 You can have a look to code by viewing the file ``${root}/graph/main.go``
 
 Also you can run the program from the console ``go run graph/main.go``
+
+<hr>
+
+### Factorial
+###### Implement a solution to find a factorial of number in golang using recusrive and iterative
+
+You can have a look to code by viewing the file ``${root}/factorial/main.go``
+
+Also you can run the program from the console ``go run factorial/main.go``
+
+<hr>
+
+### Fibonacci
+###### Implement a solution to find the number in the given index from fibonacci pattern
+
+You can have a look to code by viewing the file ``${root}/fibonacci/main.go``
+
+Also you can run the program from the console ``go run fibonacci/main.go``

@@ -21,6 +21,7 @@ Implement some data structure and algorithms topics in golang
 - [Factorial](#factorial)
 - [Fibonacci](#fibonacci)
 - [Bubble sort](#bubble-sort)
+- [Selection sort](#selection-sort)
 
 <hr>
 
@@ -136,3 +137,13 @@ Also you can run the program from the console ``go run fibonacci/main.go``
 You can have a look to code by viewing the file ``${root}/bubble_sort/main.go``
 
 Also you can run the program from the console ``go run bubble_sort/main.go``
+
+<hr>
+
+### Selection sort
+##### Selection sort is a sorting algorithm that is working by repeatedly finding the smallest element in the array and put at the beginning
+###### Implement selection sort algorithm to sort list of numbers
+
+You can have a look to code by viewing the file ``${root}/selection_sort/main.go``
+
+Also you can run the program from the console ``go run selection_sort/main.go``

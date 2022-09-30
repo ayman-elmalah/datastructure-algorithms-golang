@@ -20,6 +20,7 @@ Implement some data structure and algorithms topics in golang
 - [Graph](#graph)
 - [Factorial](#factorial)
 - [Fibonacci](#fibonacci)
+- [Bubble sort](#bubble-sort)
 
 <hr>
 
@@ -125,3 +126,13 @@ Also you can run the program from the console ``go run factorial/main.go``
 You can have a look to code by viewing the file ``${root}/fibonacci/main.go``
 
 Also you can run the program from the console ``go run fibonacci/main.go``
+
+<hr>
+
+### Bubble sort
+##### Bubble sort is the simplest sorting algorithm, it works by repeatedly swapping the adjacent elements if they are in the wrong order, biggest elements will be at the end   
+###### Implement bubble sort algorithm to sort list of numbers
+
+You can have a look to code by viewing the file ``${root}/bubble_sort/main.go``
+
+Also you can run the program from the console ``go run bubble_sort/main.go``

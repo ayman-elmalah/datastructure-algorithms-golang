@@ -8,6 +8,7 @@ func main() {
 	fmt.Println(bubbleSort(array)) // Output : [1 3 4 5 6 8]
 }
 
+// Big O is O(n^2)
 func bubbleSort(array []int) []int {
 	for i := 0; i < len(array)-1; i++ {
 		for j := 0; j < len(array)-i-1; j++ {

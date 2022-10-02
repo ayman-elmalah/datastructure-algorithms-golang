@@ -23,6 +23,7 @@ Implement some data structure and algorithms topics in golang
 - [Bubble sort](#bubble-sort)
 - [Selection sort](#selection-sort)
 - [Insertion sort](#insertion-sort)
+- [Merge sort](#merge-sort)
 
 <hr>
 
@@ -158,3 +159,13 @@ Also you can run the program from the console ``go run selection_sort/main.go``
 You can have a look to code by viewing the file ``${root}/insertion_sort/main.go``
 
 Also you can run the program from the console ``go run insertion_sort/main.go``
+
+<hr>
+
+### Merge sort
+##### Merge sort is a recursive sorting algorithm it's quite a bit faster that's dividing and conquer, divide input slides into 2 halves, recursively sort the two halves then merge sorted array 
+###### Implement merge sort algorithm to sort list of numbers
+
+You can have a look to code by viewing the file ``${root}/merge_sort/main.go``
+
+Also you can run the program from the console ``go run merge_sort/main.go``

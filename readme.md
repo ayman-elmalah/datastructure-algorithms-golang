@@ -22,6 +22,7 @@ Implement some data structure and algorithms topics in golang
 - [Fibonacci](#fibonacci)
 - [Bubble sort](#bubble-sort)
 - [Selection sort](#selection-sort)
+- [Insertion sort](#insertion-sort)
 
 <hr>
 
@@ -147,3 +148,13 @@ Also you can run the program from the console ``go run bubble_sort/main.go``
 You can have a look to code by viewing the file ``${root}/selection_sort/main.go``
 
 Also you can run the program from the console ``go run selection_sort/main.go``
+
+<hr>
+
+### Insertion sort
+##### Insertion sort is a simple sorting algorithm that is working by finding element then put it in the right place, it can be efficient in small list  
+###### Implement insertion sort algorithm to sort list of numbers
+
+You can have a look to code by viewing the file ``${root}/insertion_sort/main.go``
+
+Also you can run the program from the console ``go run insertion_sort/main.go``

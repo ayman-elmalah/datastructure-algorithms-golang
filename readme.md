@@ -24,6 +24,8 @@ Implement some data structure and algorithms topics in golang
 - [Selection sort](#selection-sort)
 - [Insertion sort](#insertion-sort)
 - [Merge sort](#merge-sort)
+- [Linear search](#linear-search)
+- [Binary search](#binary-search)
 
 <hr>
 
@@ -169,3 +171,23 @@ Also you can run the program from the console ``go run insertion_sort/main.go``
 You can have a look to code by viewing the file ``${root}/merge_sort/main.go``
 
 Also you can run the program from the console ``go run merge_sort/main.go``
+
+<hr>
+
+### Linear search
+##### A linear search is also known as a sequential search that simply scans each element at a time.  Suppose we want to search an element in an array or list, we simply calculate its length and do not jump at any item.
+###### Implement linear search algorithm to search item in list
+
+You can have a look to code by viewing the file ``${root}/linear_search/main.go``
+
+Also you can run the program from the console ``go run linear_search/main.go``
+
+<hr>
+
+### Binary search
+##### A binary search is a search in which the middle element is calculated It need to be sorted to check whether it is smaller or larger than the element which is to be searched. The main advantage of using binary search is that it does not scan each element in the list. Instead of scanning each element, it performs the searching to the half of the list. So, the binary search takes less time to search an element as compared to a linear search.
+###### Implement binary search algorithm to search item in sorted list
+
+You can have a look to code by viewing the file ``${root}/binary_search/main.go``
+
+Also you can run the program from the console ``go run binary_search/main.go``

@@ -191,3 +191,12 @@ Also you can run the program from the console ``go run linear_search/main.go``
 You can have a look to code by viewing the file ``${root}/binary_search/main.go``
 
 Also you can run the program from the console ``go run binary_search/main.go``
+
+<hr>
+
+### Longest common prefix
+###### Question: Write a function to find the longest common prefix string amongst an array of strings, As example Given ``["Flowers", "Flows", "Flight"]`` and the method should return ``Fl``
+
+You can have a look to code by viewing the file ``${root}/longest_prefix/main.go``
+
+Also you can run the program from the console ``go run longest_prefix/main.go``

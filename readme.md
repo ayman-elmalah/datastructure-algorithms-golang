@@ -26,6 +26,7 @@ Implement some data structure and algorithms topics in golang
 - [Merge sort](#merge-sort)
 - [Linear search](#linear-search)
 - [Binary search](#binary-search)
+- [Longest common prefix](#longest-common-prefix)
 
 <hr>
 

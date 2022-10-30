@@ -13,6 +13,7 @@ Implement some data structure and algorithms topics in golang
 - [Reverse a string](#reverse-a-string)
 - [Which repeated first](#which-repeated-first)
 - [Merge sorted arrays](#merge-sorted-arrays)
+- [Merge sorted lists](#merge-sorted-lists)
 - [Linked list](#linked-list)
 - [Stack](#stack)
 - [Queue](#queue)
@@ -64,6 +65,17 @@ We handled it by comparing the first values in the 2 given arrays and push the s
 You can have a look to code by viewing the file ``${root}/merge_sorted_arrays/main.go``
 
 Also you can run the program from the console ``go run merge_sorted_arrays/main.go``
+
+<hr>
+
+### Merge sorted lists
+###### Question: Implement a solution to merge 2 sorted lists in 1 list, As example Given ``[0, 2, 4] and [1, 5, 6]`` so method should return ``[0, 1, 2, 4, 5, 6]`` as the sorted list
+
+We handled it by comparing the first values in the 2 given lists and push the smaller value to a new list and repeat it until the given list is empty, the second solution used recursive
+
+You can have a look to code by viewing the file ``${root}/merge_sorted_lists/main.go``
+
+Also you can run the program from the console ``go run merge_sorted_lists/main.go``
 
 <hr>
 

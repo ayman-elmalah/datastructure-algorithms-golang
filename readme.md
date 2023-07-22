@@ -28,6 +28,7 @@ Implement some data structure and algorithms topics in golang
 - [Linear search](#linear-search)
 - [Binary search](#binary-search)
 - [Longest common prefix](#longest-common-prefix)
+- [Digital clock](#digital-clock)
 
 <hr>
 
@@ -213,3 +214,12 @@ Also you can run the program from the console ``go run binary_search/main.go``
 You can have a look to code by viewing the file ``${root}/longest_prefix/main.go``
 
 Also you can run the program from the console ``go run longest_prefix/main.go``
+
+<hr>
+
+### Digital clock
+###### Question: Write a function to display a digital clock on terminal
+
+You can have a look to code by viewing the file ``${root}/digital_clock/main.go``
+
+Also you can run the program from the console ``go run digital_clock/main.go``

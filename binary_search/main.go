@@ -9,18 +9,17 @@ func main() {
 	fmt.Println(binarySearch(items, 54)) // Output: false
 }
 
-func binarySearch(items []int, key int) bool {
+func binarySearch(items []int, needed int) bool {
 	median := len(items) / 2
+
 	switch {
 	case len(items) == 0:
 		return false
-	case items[median] == key:
-		return true
-	case items[median] > key:
-		return binarySearch(items[:median], key)
-	case items[median] < key:
-		return binarySearch(items[median+1:], key)
+	case items[median] < needed:
+		return binarySearch(items[median+1:], needed)
+	case items[median] > needed:
+		return binarySearch(items[:median], needed)
 	default:
-		return false
+		return items[median] == needed
 	}
 }

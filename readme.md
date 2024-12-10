@@ -29,6 +29,7 @@ Implement some data structure and algorithms topics in golang
 - [Binary search](#binary-search)
 - [Longest common prefix](#longest-common-prefix)
 - [Digital clock](#digital-clock)
+- [Find missing number](#find-missing-number)
 
 <hr>
 
@@ -223,3 +224,12 @@ Also you can run the program from the console ``go run longest_prefix/main.go``
 You can have a look to code by viewing the file ``${root}/digital_clock/main.go``
 
 Also you can run the program from the console ``go run digital_clock/main.go``
+
+<hr>
+
+### Find the Missing Number in a Sequence
+###### Question: Write a function to find missing number from sequence array
+
+You can have a look to code by viewing the file ``${root}/find_missing_number/main.go``
+
+Also you can run the program from the console ``go run find_missing_number/main.go``

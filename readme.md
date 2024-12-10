@@ -29,7 +29,7 @@ Implement some data structure and algorithms topics in golang
 - [Binary search](#binary-search)
 - [Longest common prefix](#longest-common-prefix)
 - [Digital clock](#digital-clock)
-- [Find missing number](#find-missing-number)
+- [Find the Missing Number in a Sequence](#find-the-missing-number-in-a-sequence)
 
 <hr>
 
